@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit a Product</title>
-</head>
-<body>
+<x-layout>
     <h1>Edit a Product</h1>
     <div>
         @if($errors->any())
@@ -43,5 +36,4 @@
             <input type="submit" value="Update Product"/>
         </div>
     </form>
-</body>
-</html>
+</x-layout>

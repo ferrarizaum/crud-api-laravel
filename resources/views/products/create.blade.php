@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create a Product</title>
-</head>
-<body>
+<x-layout>
     <h1>Create a Product</h1>
     <div>
         @if($errors->any())
@@ -43,5 +36,5 @@
             <input type="submit" value="Save Product"/>
         </div>
     </form>
-</body>
-</html>
+</x-layout>
+
