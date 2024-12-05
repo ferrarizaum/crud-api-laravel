@@ -1,4 +1,7 @@
 <x-layout>
+    <x-slot:heading>
+        Product Page
+    </x-slot:heading>
     <h1>Product</h1>
     <div>
         @if(session()->has('success'))

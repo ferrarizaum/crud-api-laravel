@@ -1,5 +1,7 @@
 <x-layout>
-    <h1>Edit a Product</h1>
+    <x-slot:heading>
+        Edit a Product
+    </x-slot:heading>
     <div>
         @if($errors->any())
         <ul>
